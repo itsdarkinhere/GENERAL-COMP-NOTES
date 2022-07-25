@@ -36,7 +36,7 @@ Its about cables ,connectors
 
 Data	link layer:
 At this level we introduce our first protocol 
-Responsible for defining common way of interpreting this signal so network devices can communicate 
+Responsible for defining common way of interpreting the signal so network devices can communicate 
 Lot of protocol are there at data link layer ,most common is Ethernet :responsible for getting data to node on the same network 
 
 Ethernet as a protocol uses csma/cd 
@@ -87,7 +87,7 @@ Fiber cables:contain individual optical fibers ,which are tiny tubes made out of
 
 
 Hubs:
-Cables only allow you to from point to point connection ,not useful where we have billions of devices 
+Cables only allow you to form point to point connection ,not useful where we have billions of devices 
 
 Hub is a physical layer device that allows for connections from many computers at once 
 All devices connected to hub will end up talking to other devices at same time , it depends on system if the data was meant for them
@@ -108,6 +108,10 @@ Router:
 Routers knows how to forward data between independent network ,operates at layer 3 (network layer )
 Router stores internal tables to how to route traffic all over the world 
 Home router will not detailed routing table , inside the home to isp service provider 
+
+Router receives a data packet examines destination packet ,looks up destination ip in its routing table ,forwards traffic to destination 
+
+
 
 Router share data with global router via  protocol know as BGP (broader gateway protocol ) - lets them find the most optimal path 
 
